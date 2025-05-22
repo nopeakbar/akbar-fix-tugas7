@@ -10,7 +10,7 @@ steps:
     args:
       - "run"
       - "deploy"
-      - "backend"
+      - "be-akbar-tugas7"
       - "--image"
       - "gcr.io/$PROJECT_ID/akbar-tugas7"
       - "--timeout"

@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cookieParser());
-app.use(cors({ credentials:true,origin:'https://veyza-notes-be-dot-e-13-450704.uc.r.appspot.com' }));
+app.use(cors({ credentials:true,origin:'https://akbar-tugas7-fe-dot-xenon-axe-450704-n3.uc.r.appspot.com/' }));
 app.use(express.json());
 
 app.use(UserRoute);

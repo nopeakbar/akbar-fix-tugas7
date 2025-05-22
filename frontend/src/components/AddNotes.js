@@ -29,6 +29,7 @@ function AddNotes() {
         }
     };
 
+    // UI dari kode lama dipaste ulang supaya sama persis
     return (
         <div className="columns mt-5 is-centered">
             <div className="column is-half">
@@ -71,7 +72,7 @@ function AddNotes() {
                                     value={notes}
                                     onChange={(e) => setNotes(e.target.value)}
                                     rows="4"
-                                    placeholder="Write your notes here..."
+                                    placeholder="tulis notes disini..."
                                     required
                                 ></textarea>
                             </div>
